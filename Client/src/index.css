@@ -56,23 +56,23 @@
 
   /* Button Styles */
   .btn-primary {
-    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2.5 px-5 rounded-lg transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2.5 px-5 rounded transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
   }
 
   .btn-secondary {
-    @apply bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2.5 px-5 rounded-lg transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2;
+    @apply bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2.5 px-5 rounded transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2;
   }
 
   .btn-outline {
-    @apply bg-transparent hover:bg-primary-50 text-primary-600 font-medium py-2.5 px-5 rounded-lg transition-all duration-200 border border-primary-600 hover:border-primary-700 flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    @apply bg-transparent hover:bg-primary-50 text-primary-600 font-medium py-2.5 px-5 rounded transition-all duration-200 border border-primary-600 hover:border-primary-700 flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
   }
 
   .btn-accent {
-    @apply bg-accent-600 hover:bg-accent-700 text-white font-medium py-2.5 px-5 rounded-lg transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2;
+    @apply bg-accent-600 hover:bg-accent-700 text-white font-medium py-2.5 px-5 rounded transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2;
   }
 
   .btn-red {
-    @apply bg-error-600 hover:bg-error-700 text-white font-medium py-2.5 px-5 rounded-lg transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2;
+    @apply bg-error-600 hover:bg-error-700 text-white font-medium py-2.5 px-5 rounded transition-all duration-200 shadow-sm hover:shadow flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2;
   }
 
   .btn-sm {
@@ -85,7 +85,7 @@
 
   /* Card Styles */
   .card {
-    @apply bg-white rounded-lg shadow-sm hover:shadow p-6 border border-gray-200 transition-all duration-200;
+    @apply bg-white rounded shadow-sm hover:shadow p-6 border border-gray-200 transition-all duration-200;
   }
 
   .card-hover {
@@ -118,7 +118,7 @@
 
   /* Form Styles */
   .input-field {
-    @apply w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-text-700 bg-white transition-all duration-200;
+    @apply w-full px-4 py-2.5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-text-700 bg-white transition-all duration-200;
   }
 
   .input-label {

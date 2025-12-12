@@ -51,8 +51,8 @@ const Navbar = () => {
 
     return (
         <nav className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
-            ? 'bg-primary-800/95 backdrop-blur-md shadow-md'
-            : 'bg-primary-800 shadow-lg border-b border-primary-700'
+            ? 'bg-gray-900/95 backdrop-blur-md shadow-md'
+            : 'bg-gray-900 shadow-lg border-b border-gray-900'
             }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
@@ -60,7 +60,7 @@ const Navbar = () => {
                     <Link to="/" className="flex items-center space-x-2 group">
                         <div className="flex items-center">
                             <span className="text-3xl mr-2 transform group-hover:scale-110 transition-transform duration-300">🏔️</span>
-                            <div className="text-2xl font-bold text-stone-300">
+                            <div className="text-2xl font-bold text-black-700">
                                 Himachal Milap
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
                             to="/"
                             className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${isActive('/')
                                 ? 'text-primary-700 bg-primary-50'
-                                : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                                : 'text-white hover:text-primary-600 hover:bg-gray-50'
                                 }`}
                         >
                             Home
@@ -81,7 +81,7 @@ const Navbar = () => {
                             to="/jobs"
                             className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${isActive('/jobs')
                                 ? 'text-primary-700 bg-primary-50'
-                                : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                                : 'ext-white hover:text-primary-600 hover:bg-gray-50'
                                 }`}
                         >
                             Jobs
@@ -90,7 +90,7 @@ const Navbar = () => {
                             to="/services"
                             className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${isActive('/services')
                                 ? 'text-primary-700 bg-primary-50'
-                                : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                                : 'text-white hover:text-primary-600 hover:bg-gray-50'
                                 }`}
                         >
                             Services
@@ -106,7 +106,7 @@ const Navbar = () => {
                                         to="/profile"
                                         className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${isActive('/profile')
                                             ? 'text-primary-700 bg-primary-50'
-                                            : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                                            : 'text-white hover:text-primary-600 hover:bg-gray-50'
                                             }`}
                                         onClick={() => setShowNotification(false)}
                                     >

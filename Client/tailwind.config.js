@@ -7,54 +7,54 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Simple Blue - Primary brand color
+        // Cool Purple - Primary brand color
         // Use for: Navbar, header backgrounds, primary buttons
         primary: {
-          50: '#f0f4ff',
-          100: '#e0e9ff',
-          200: '#c7d7fe',
-          300: '#a4bcfd',
-          400: '#819dfc',
-          500: '#3b82f6', // Main Blue
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
-          950: '#172554',
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          200: '#ddd6fe',
+          300: '#c4b5fd',
+          400: '#a78bfa',
+          500: '#8b5cf6', // Main Purple
+          600: '#7c3aed',
+          700: '#6d28d9',
+          800: '#5b21b6',
+          900: '#4c1d95',
+          950: '#2e1065',
         },
-        
-        // Simple Red - Secondary accent color
+
+        // Cool Teal - Secondary accent color
         // Use for: CTA buttons, highlights, icons
         secondary: {
-          50: '#fef2f2',
-          100: '#fee2e2',
-          200: '#fecaca',
-          300: '#fca5a5',
-          400: '#f87171',
-          500: '#ef4444', // Main Red
-          600: '#dc2626',
-          700: '#b91c1c',
-          800: '#991b1b',
-          900: '#7f1d1d',
-          950: '#450a0a',
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#14b8a6', // Main Teal
+          600: '#0d9488',
+          700: '#0f766e',
+          800: '#115e59',
+          900: '#134e4a',
+          950: '#042f2e',
         },
-        
-        // Simple Green - Accent color for success states
+
+        // Cool Cyan - Accent color for success states
         // Use for: Success indicators, special highlights
         accent: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e', // Main Green
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          950: '#052e16',
+          50: '#ecfeff',
+          100: '#cffafe',
+          200: '#a5f3fc',
+          300: '#67e8f9',
+          400: '#22d3ee',
+          500: '#06b6d4', // Main Cyan
+          600: '#0891b2',
+          700: '#0e7490',
+          800: '#155e75',
+          900: '#164e63',
+          950: '#083344',
         },
-        
+
         // Gray - Neutral colors for backgrounds and text
         // Use for: Page backgrounds, card backgrounds, section separators
         gray: {
@@ -70,7 +70,7 @@ export default {
           900: '#111827',
           950: '#030712',
         },
-        
+
         // Simple text colors
         // Use for: Headings, body text, labels
         text: {
@@ -86,7 +86,7 @@ export default {
           900: '#111827',
           950: '#030712',
         },
-        
+
         // Simple utility colors
         success: {
           50: '#f0fdf4',
@@ -127,7 +127,7 @@ export default {
           900: '#7f1d1d',
           950: '#450a0a',
         },
-        
+
         // Simple yellow for highlights
         yellow: {
           50: '#fefce8',
@@ -142,7 +142,7 @@ export default {
           900: '#713f12',
           950: '#422006',
         },
-        
+
         // Simple purple for special elements
         purple: {
           50: '#faf5ff',
@@ -163,13 +163,13 @@ export default {
         display: ['Poppins', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        'soft': '0 10px 25px -5px rgba(99, 102, 241, 0.1), 0 10px 10px -5px rgba(99, 102, 241, 0.04)',
-        'card': '0 0 0 1px rgba(99, 102, 241, 0.05), 0 2px 8px rgba(99, 102, 241, 0.08)',
-        'card-hover': '0 0 0 1px rgba(99, 102, 241, 0.05), 0 10px 20px rgba(99, 102, 241, 0.12)',
-        'button': '0 4px 6px rgba(99, 102, 241, 0.1)',
-        'button-hover': '0 6px 12px rgba(99, 102, 241, 0.15)',
-        'glow': '0 0 15px rgba(99, 102, 241, 0.5)',
-        'inner': 'inset 0 2px 4px rgba(99, 102, 241, 0.05)',
+        'soft': '0 4px 6px -1px rgba(139, 92, 246, 0.1), 0 2px 4px -1px rgba(139, 92, 246, 0.06)',
+        'card': '0 1px 3px 0 rgba(139, 92, 246, 0.1), 0 1px 2px 0 rgba(139, 92, 246, 0.06)',
+        'card-hover': '0 4px 6px -1px rgba(139, 92, 246, 0.1), 0 2px 4px -1px rgba(139, 92, 246, 0.06)',
+        'button': '0 1px 2px 0 rgba(139, 92, 246, 0.05)',
+        'button-hover': '0 2px 4px 0 rgba(139, 92, 246, 0.1)',
+        'glow': '0 0 10px rgba(139, 92, 246, 0.3)',
+        'inner': 'inset 0 1px 2px rgba(139, 92, 246, 0.05)',
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-out',

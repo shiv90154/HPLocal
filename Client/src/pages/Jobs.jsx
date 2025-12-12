@@ -82,7 +82,7 @@ const Jobs = () => {
     return (
         <div className="bg-gray-50 min-h-screen">
             {/* Header */}
-            <div className="bg-primary-600 text-white">
+            <div className=" text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                     <h1 className="text-3xl font-bold">Find Jobs in Himachal Pradesh</h1>
                     <p className="mt-2 text-lg">Browse through available job opportunities across the state</p>
